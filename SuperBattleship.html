@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+   <head>
+      <title>Greg McDonagh Super Battleship
+      </title>
+      <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous">
+      </script>
+      <script src="SBConstants.js">
+      </script>
+      <script src="SuperBattleship.js">
+      </script>
+      <script src="DumbAI.js">
+      </script>
+      <script src="GUIPlayer.js">
+      </script>
+      <script src="GUIOnePlayerSuperBattleship.js">
+      </script>
+      <link rel="stylesheet" type="text/css" href="SuperBattleship.css">
+   </head>
+
+   <body>
+      <div id="map_panel">
+        <div id="p1_view">
+        </div>
+      </div>
+      <div id="p1_info_panel">
+        <h3>Log</h3>
+        <div id="log_output">
+        </div>
+     </div>
+      <div id = "control">
+          Welcome to Super Battleship! To play, simply click one of your ships to select it. Then press 'W' to move it forward, 'S' to move it backward, 'A' to rotate it counter-clockwise, or 'D' to rotate it clockwise. Once one of your ships is selected, it will remain selected until you choose another ship or shoot, so no need to select every turn! To shoot rather than move on a given turn, simply click the square you wish to shoot. If you REALLY want to shoot yourself, you can press 'K', for  Kamikaze, after you select one of your own ships. That's it! Have fun!<br>
+          <button id = "fleet_info_button">Fleet Info</button>
+          <div id = "fleet_info_output"></div>
+      </div>
+     
+   </body> 
+</html>

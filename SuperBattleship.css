@@ -1,0 +1,89 @@
+#map_panel {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+body {
+	background-color: #99ffff;
+}
+
+#p1_view {
+    width: 100%;
+    height: 50%;
+}
+
+#control {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+    width: 30%;
+    height: 730px;
+    text-align: center;
+}
+
+#fleet_info_output {
+    font-size: 75%;
+    text-align: left;
+}
+
+#fleet_info_button {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#p1_info_panel {
+    height: 700px;
+    width: 15%;
+    border: 1px solid black;
+    float: right;
+}
+
+#log_output {
+    position: relative;
+    height: 90%;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 60%;
+    font-weight: bold;
+}
+
+td.empty{
+    background-color: blue;
+}
+
+td.miss{
+    background-color: white;
+}
+
+td.burnt{
+    background-image: url("http://i.imgur.com/mYOn0wv.jpg");
+}
+
+td.player{
+    background-color: lightgreen;
+}
+
+td.enemy{
+    background-color: red;
+}
+
+td.invisible{
+    background-image: url("http://i.imgur.com/JNxxVVK.jpg");
+}
+
+td.selected {
+    background-color: yellow;
+}
+    
